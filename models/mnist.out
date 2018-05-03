@@ -1,0 +1,418 @@
+
+Lmod is automatically replacing "Intel/2016.3.210-GCC-5.4.0-2.26" with
+"GCC/5.4.0-2.26".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) Perl/5.24.0     2) git/2.12.2
+
+Cloning into 'models'...
+Checking out files:  32% (672/2093)   Checking out files:  32% (673/2093)   Checking out files:  32% (680/2093)   Checking out files:  33% (691/2093)   Checking out files:  34% (712/2093)   Checking out files:  35% (733/2093)   Checking out files:  36% (754/2093)   Checking out files:  37% (775/2093)   Checking out files:  38% (796/2093)   Checking out files:  39% (817/2093)   Checking out files:  40% (838/2093)   Checking out files:  41% (859/2093)   Checking out files:  42% (880/2093)   Checking out files:  43% (900/2093)   Checking out files:  43% (917/2093)   Checking out files:  44% (921/2093)   Checking out files:  45% (942/2093)   Checking out files:  46% (963/2093)   Checking out files:  47% (984/2093)   Checking out files:  48% (1005/2093)   Checking out files:  49% (1026/2093)   Checking out files:  50% (1047/2093)   Checking out files:  51% (1068/2093)   Checking out files:  52% (1089/2093)   Checking out files:  53% (1110/2093)   Checking out files:  54% (1131/2093)   Checking out files:  55% (1152/2093)   Checking out files:  56% (1173/2093)   Checking out files:  56% (1177/2093)   Checking out files:  57% (1194/2093)   Checking out files:  58% (1214/2093)   Checking out files:  59% (1235/2093)   Checking out files:  60% (1256/2093)   Checking out files:  61% (1277/2093)   Checking out files:  62% (1298/2093)   Checking out files:  63% (1319/2093)   Checking out files:  64% (1340/2093)   Checking out files:  65% (1361/2093)   Checking out files:  66% (1382/2093)   Checking out files:  67% (1403/2093)   Checking out files:  68% (1424/2093)   Checking out files:  69% (1445/2093)   Checking out files:  70% (1466/2093)   Checking out files:  71% (1487/2093)   Checking out files:  72% (1507/2093)   Checking out files:  73% (1528/2093)   Checking out files:  74% (1549/2093)   Checking out files:  75% (1570/2093)   Checking out files:  76% (1591/2093)   Checking out files:  76% (1609/2093)   Checking out files:  77% (1612/2093)   Checking out files:  78% (1633/2093)   Checking out files:  78% (1639/2093)   Checking out files:  79% (1654/2093)   Checking out files:  80% (1675/2093)   Checking out files:  80% (1694/2093)   Checking out files:  81% (1696/2093)   Checking out files:  82% (1717/2093)   Checking out files:  83% (1738/2093)   Checking out files:  84% (1759/2093)   Checking out files:  85% (1780/2093)   Checking out files:  86% (1800/2093)   Checking out files:  87% (1821/2093)   Checking out files:  87% (1825/2093)   Checking out files:  88% (1842/2093)   Checking out files:  89% (1863/2093)   Checking out files:  90% (1884/2093)   Checking out files:  91% (1905/2093)   Checking out files:  92% (1926/2093)   Checking out files:  93% (1947/2093)   Checking out files:  93% (1963/2093)   Checking out files:  94% (1968/2093)   Checking out files:  95% (1989/2093)   Checking out files:  96% (2010/2093)   Checking out files:  97% (2031/2093)   Checking out files:  98% (2052/2093)   Checking out files:  99% (2073/2093)   Checking out files: 100% (2093/2093)   Checking out files: 100% (2093/2093), done.
+Docker image path: index.docker.io/tensorflow/tensorflow:latest-gpu
+Cache folder set to /gpfs22/home/chas/.singularity/docker
+[1/18] ||----------------------------------|   0.0% [1/18] |=|---------------------------------|   5.6% [2/18] |===|-------------------------------|  11.1% [3/18] |=====|-----------------------------|  16.7% [4/18] |=======|---------------------------|  22.2% [5/18] |=========|-------------------------|  27.8% [6/18] |===========|-----------------------|  33.3% [7/18] |=============|---------------------|  38.9% [8/18] |===============|-------------------|  44.4% [9/18] |=================|-----------------|  50.0% [10/18] |===================|---------------|  55.6% [11/18] |=====================|-------------|  61.1% [12/18] |=======================|-----------|  66.7% [13/18] |=========================|---------|  72.2% [14/18] |===========================|-------|  77.8% [15/18] |=============================|-----|  83.3% [16/18] |===============================|---|  88.9% [17/18] |=================================|-|  94.4% [18/18] |===================================| 100.0% 
+Creating container runtime...
+tar: usr/local/cuda-9.0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cudart-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-license-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cublas-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cufft-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-curand-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cusolver-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cusparse-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-libraries-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-npp-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-nvgraph-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-nvrtc-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/libnccl2/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/libcudnn7/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+[33mWARNING: Non existent bind point (directory) in container: '/scratch'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/data'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/dors'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs22'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs23'
+[0m[33mWARNING: Skipping user bind, non existent bind point (file) in container: '/usr/bin/nvidia-smi'
+[0m/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-04-13 20:19:42.374900: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-13 20:19:42.699109: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:02:00.0
+totalMemory: 11.92GiB freeMemory: 11.80GiB
+2018-04-13 20:19:42.890497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 1 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:03:00.0
+totalMemory: 11.92GiB freeMemory: 11.80GiB
+2018-04-13 20:19:43.087737: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 2 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:82:00.0
+totalMemory: 11.92GiB freeMemory: 11.80GiB
+2018-04-13 20:19:43.289674: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 3 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:83:00.0
+totalMemory: 11.92GiB freeMemory: 11.80GiB
+2018-04-13 20:19:43.290253: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0, 1, 2, 3
+2018-04-13 20:22:39.854487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-13 20:22:39.854538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 1 2 3 
+2018-04-13 20:22:39.854554: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N Y N N 
+2018-04-13 20:22:39.854566: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 1:   Y N N N 
+2018-04-13 20:22:39.854576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 2:   N N N Y 
+2018-04-13 20:22:39.854586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 3:   N N Y N 
+2018-04-13 20:22:39.855760: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11432 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:02:00.0, compute capability: 5.2)
+2018-04-13 20:22:39.976891: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11432 MB memory) -> physical GPU (device: 1, name: GeForce GTX TITAN X, pci bus id: 0000:03:00.0, compute capability: 5.2)
+2018-04-13 20:22:40.099049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 11432 MB memory) -> physical GPU (device: 2, name: GeForce GTX TITAN X, pci bus id: 0000:82:00.0, compute capability: 5.2)
+2018-04-13 20:22:40.220975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 11432 MB memory) -> physical GPU (device: 3, name: GeForce GTX TITAN X, pci bus id: 0000:83:00.0, compute capability: 5.2)
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting data/train-images-idx3-ubyte.gz
+Extracting data/train-labels-idx1-ubyte.gz
+Extracting data/t10k-images-idx3-ubyte.gz
+Extracting data/t10k-labels-idx1-ubyte.gz
+Initialized!
+Step 0 (epoch 0.00), 1804.2 ms
+Minibatch loss: 8.334, learning rate: 0.010000
+Minibatch error: 85.9%
+Validation error: 84.5%
+Step 100 (epoch 0.12), 4.8 ms
+Minibatch loss: 3.237, learning rate: 0.010000
+Minibatch error: 6.2%
+Validation error: 7.9%
+Step 200 (epoch 0.23), 4.6 ms
+Minibatch loss: 3.401, learning rate: 0.010000
+Minibatch error: 12.5%
+Validation error: 4.4%
+Step 300 (epoch 0.35), 4.6 ms
+Minibatch loss: 3.230, learning rate: 0.010000
+Minibatch error: 6.2%
+Validation error: 3.1%
+Step 400 (epoch 0.47), 4.6 ms
+Minibatch loss: 3.226, learning rate: 0.010000
+Minibatch error: 6.2%
+Validation error: 2.5%
+Step 500 (epoch 0.58), 4.6 ms
+Minibatch loss: 3.157, learning rate: 0.010000
+Minibatch error: 4.7%
+Validation error: 2.7%
+Step 600 (epoch 0.70), 4.6 ms
+Minibatch loss: 3.103, learning rate: 0.010000
+Minibatch error: 3.1%
+Validation error: 2.3%
+Step 700 (epoch 0.81), 4.6 ms
+Minibatch loss: 2.992, learning rate: 0.010000
+Minibatch error: 4.7%
+Validation error: 2.3%
+Step 800 (epoch 0.93), 4.6 ms
+Minibatch loss: 3.005, learning rate: 0.010000
+Minibatch error: 4.7%
+Validation error: 2.2%
+Step 900 (epoch 1.05), 4.6 ms
+Minibatch loss: 2.920, learning rate: 0.009500
+Minibatch error: 1.6%
+Validation error: 1.7%
+Step 1000 (epoch 1.16), 4.6 ms
+Minibatch loss: 2.879, learning rate: 0.009500
+Minibatch error: 1.6%
+Validation error: 1.8%
+Step 1100 (epoch 1.28), 4.6 ms
+Minibatch loss: 2.825, learning rate: 0.009500
+Minibatch error: 1.6%
+Validation error: 1.4%
+Step 1200 (epoch 1.40), 4.6 ms
+Minibatch loss: 2.942, learning rate: 0.009500
+Minibatch error: 1.6%
+Validation error: 1.4%
+Step 1300 (epoch 1.51), 4.6 ms
+Minibatch loss: 2.790, learning rate: 0.009500
+Minibatch error: 0.0%
+Validation error: 1.6%
+Step 1400 (epoch 1.63), 4.6 ms
+Minibatch loss: 2.810, learning rate: 0.009500
+Minibatch error: 3.1%
+Validation error: 1.4%
+Step 1500 (epoch 1.75), 4.6 ms
+Minibatch loss: 2.823, learning rate: 0.009500
+Minibatch error: 4.7%
+Validation error: 1.2%
+Step 1600 (epoch 1.86), 4.6 ms
+Minibatch loss: 2.713, learning rate: 0.009500
+Minibatch error: 1.6%
+Validation error: 1.5%
+Step 1700 (epoch 1.98), 4.6 ms
+Minibatch loss: 2.651, learning rate: 0.009500
+Minibatch error: 0.0%
+Validation error: 1.4%
+Step 1800 (epoch 2.09), 4.6 ms
+Minibatch loss: 2.656, learning rate: 0.009025
+Minibatch error: 1.6%
+Validation error: 1.2%
+Step 1900 (epoch 2.21), 4.6 ms
+Minibatch loss: 2.630, learning rate: 0.009025
+Minibatch error: 0.0%
+Validation error: 1.3%
+Step 2000 (epoch 2.33), 4.6 ms
+Minibatch loss: 2.595, learning rate: 0.009025
+Minibatch error: 1.6%
+Validation error: 1.2%
+Step 2100 (epoch 2.44), 4.6 ms
+Minibatch loss: 2.573, learning rate: 0.009025
+Minibatch error: 0.0%
+Validation error: 1.1%
+Step 2200 (epoch 2.56), 4.6 ms
+Minibatch loss: 2.604, learning rate: 0.009025
+Minibatch error: 3.1%
+Validation error: 1.2%
+Step 2300 (epoch 2.68), 4.6 ms
+Minibatch loss: 2.572, learning rate: 0.009025
+Minibatch error: 1.6%
+Validation error: 1.2%
+Step 2400 (epoch 2.79), 4.6 ms
+Minibatch loss: 2.510, learning rate: 0.009025
+Minibatch error: 0.0%
+Validation error: 1.1%
+Step 2500 (epoch 2.91), 4.6 ms
+Minibatch loss: 2.469, learning rate: 0.009025
+Minibatch error: 0.0%
+Validation error: 1.3%
+Step 2600 (epoch 3.03), 4.6 ms
+Minibatch loss: 2.481, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.4%
+Step 2700 (epoch 3.14), 4.6 ms
+Minibatch loss: 2.463, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.3%
+Step 2800 (epoch 3.26), 4.6 ms
+Minibatch loss: 2.437, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.3%
+Step 2900 (epoch 3.37), 4.6 ms
+Minibatch loss: 2.479, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.1%
+Step 3000 (epoch 3.49), 4.6 ms
+Minibatch loss: 2.393, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 3100 (epoch 3.61), 4.6 ms
+Minibatch loss: 2.365, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.0%
+Step 3200 (epoch 3.72), 4.6 ms
+Minibatch loss: 2.354, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.1%
+Step 3300 (epoch 3.84), 4.6 ms
+Minibatch loss: 2.348, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.0%
+Step 3400 (epoch 3.96), 4.6 ms
+Minibatch loss: 2.298, learning rate: 0.008574
+Minibatch error: 1.6%
+Validation error: 1.1%
+Step 3500 (epoch 4.07), 4.6 ms
+Minibatch loss: 2.289, learning rate: 0.008145
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 3600 (epoch 4.19), 4.6 ms
+Minibatch loss: 2.254, learning rate: 0.008145
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 3700 (epoch 4.31), 4.6 ms
+Minibatch loss: 2.230, learning rate: 0.008145
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 3800 (epoch 4.42), 4.6 ms
+Minibatch loss: 2.221, learning rate: 0.008145
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 3900 (epoch 4.54), 4.6 ms
+Minibatch loss: 2.249, learning rate: 0.008145
+Minibatch error: 1.6%
+Validation error: 1.0%
+Step 4000 (epoch 4.65), 4.6 ms
+Minibatch loss: 2.247, learning rate: 0.008145
+Minibatch error: 1.6%
+Validation error: 1.1%
+Step 4100 (epoch 4.77), 4.6 ms
+Minibatch loss: 2.177, learning rate: 0.008145
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 4200 (epoch 4.89), 4.6 ms
+Minibatch loss: 2.172, learning rate: 0.008145
+Minibatch error: 1.6%
+Validation error: 1.0%
+Step 4300 (epoch 5.00), 4.6 ms
+Minibatch loss: 2.227, learning rate: 0.007738
+Minibatch error: 6.2%
+Validation error: 1.0%
+Step 4400 (epoch 5.12), 4.6 ms
+Minibatch loss: 2.137, learning rate: 0.007738
+Minibatch error: 0.0%
+Validation error: 1.1%
+Step 4500 (epoch 5.24), 4.6 ms
+Minibatch loss: 2.143, learning rate: 0.007738
+Minibatch error: 3.1%
+Validation error: 0.9%
+Step 4600 (epoch 5.35), 4.6 ms
+Minibatch loss: 2.088, learning rate: 0.007738
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 4700 (epoch 5.47), 4.6 ms
+Minibatch loss: 2.094, learning rate: 0.007738
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 4800 (epoch 5.59), 4.6 ms
+Minibatch loss: 2.083, learning rate: 0.007738
+Minibatch error: 3.1%
+Validation error: 0.9%
+Step 4900 (epoch 5.70), 4.6 ms
+Minibatch loss: 2.098, learning rate: 0.007738
+Minibatch error: 3.1%
+Validation error: 0.9%
+Step 5000 (epoch 5.82), 4.6 ms
+Minibatch loss: 2.150, learning rate: 0.007738
+Minibatch error: 4.7%
+Validation error: 0.9%
+Step 5100 (epoch 5.93), 4.6 ms
+Minibatch loss: 1.999, learning rate: 0.007738
+Minibatch error: 0.0%
+Validation error: 1.1%
+Step 5200 (epoch 6.05), 4.6 ms
+Minibatch loss: 2.101, learning rate: 0.007351
+Minibatch error: 3.1%
+Validation error: 0.9%
+Step 5300 (epoch 6.17), 4.6 ms
+Minibatch loss: 1.972, learning rate: 0.007351
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 5400 (epoch 6.28), 4.6 ms
+Minibatch loss: 1.959, learning rate: 0.007351
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 5500 (epoch 6.40), 4.6 ms
+Minibatch loss: 1.982, learning rate: 0.007351
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 5600 (epoch 6.52), 4.7 ms
+Minibatch loss: 1.940, learning rate: 0.007351
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 5700 (epoch 6.63), 4.6 ms
+Minibatch loss: 1.912, learning rate: 0.007351
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 5800 (epoch 6.75), 4.6 ms
+Minibatch loss: 1.900, learning rate: 0.007351
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 5900 (epoch 6.87), 4.6 ms
+Minibatch loss: 1.894, learning rate: 0.007351
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 6000 (epoch 6.98), 4.6 ms
+Minibatch loss: 1.914, learning rate: 0.007351
+Minibatch error: 1.6%
+Validation error: 1.0%
+Step 6100 (epoch 7.10), 4.6 ms
+Minibatch loss: 1.868, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 6200 (epoch 7.21), 4.6 ms
+Minibatch loss: 1.849, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 6300 (epoch 7.33), 4.6 ms
+Minibatch loss: 1.836, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 6400 (epoch 7.45), 4.6 ms
+Minibatch loss: 1.845, learning rate: 0.006983
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 6500 (epoch 7.56), 4.6 ms
+Minibatch loss: 1.808, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 6600 (epoch 7.68), 4.6 ms
+Minibatch loss: 1.801, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 6700 (epoch 7.80), 4.6 ms
+Minibatch loss: 1.784, learning rate: 0.006983
+Minibatch error: 0.0%
+Validation error: 0.8%
+Step 6800 (epoch 7.91), 4.6 ms
+Minibatch loss: 1.786, learning rate: 0.006983
+Minibatch error: 1.6%
+Validation error: 0.9%
+Step 6900 (epoch 8.03), 4.6 ms
+Minibatch loss: 1.759, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 7000 (epoch 8.15), 4.6 ms
+Minibatch loss: 1.755, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 7100 (epoch 8.26), 4.6 ms
+Minibatch loss: 1.736, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 7200 (epoch 8.38), 4.6 ms
+Minibatch loss: 1.730, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 7300 (epoch 8.49), 4.6 ms
+Minibatch loss: 1.726, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.8%
+Step 7400 (epoch 8.61), 4.6 ms
+Minibatch loss: 1.700, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.7%
+Step 7500 (epoch 8.73), 4.6 ms
+Minibatch loss: 1.700, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 7600 (epoch 8.84), 4.6 ms
+Minibatch loss: 1.773, learning rate: 0.006634
+Minibatch error: 1.6%
+Validation error: 0.8%
+Step 7700 (epoch 8.96), 4.6 ms
+Minibatch loss: 1.667, learning rate: 0.006634
+Minibatch error: 0.0%
+Validation error: 1.0%
+Step 7800 (epoch 9.08), 4.6 ms
+Minibatch loss: 1.658, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 7900 (epoch 9.19), 4.6 ms
+Minibatch loss: 1.645, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 8000 (epoch 9.31), 4.6 ms
+Minibatch loss: 1.646, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 8100 (epoch 9.43), 4.6 ms
+Minibatch loss: 1.631, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 8200 (epoch 9.54), 4.6 ms
+Minibatch loss: 1.621, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.9%
+Step 8300 (epoch 9.66), 4.6 ms
+Minibatch loss: 1.610, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.8%
+Step 8400 (epoch 9.77), 4.6 ms
+Minibatch loss: 1.599, learning rate: 0.006302
+Minibatch error: 0.0%
+Validation error: 0.8%
+Step 8500 (epoch 9.89), 4.6 ms
+Minibatch loss: 1.630, learning rate: 0.006302
+Minibatch error: 1.6%
+Validation error: 0.9%
+Test error: 0.8%

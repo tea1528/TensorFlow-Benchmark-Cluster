@@ -1,0 +1,3 @@
+BENCHMARK/scripts/tf_cnn_benchmarks/cifar10_data/*
+BENCHMARK/scripts/tf_cnn_benchmarks/cifar10_train/*
+MODELS/data/*.gz

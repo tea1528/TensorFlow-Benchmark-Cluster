@@ -1,0 +1,85 @@
+
+Lmod is automatically replacing "Intel/2016.3.210-GCC-5.4.0-2.26" with
+"GCC/5.4.0-2.26".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) Perl/5.24.0     2) git/2.12.2
+
+Docker image path: index.docker.io/tensorflow/tensorflow:latest-gpu
+Cache folder set to /gpfs22/home/chas/.singularity/docker
+Creating container runtime...
+tar: usr/local/cuda-9.0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cudart-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-license-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cublas-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cufft-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-curand-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cusolver-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-cusparse-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-libraries-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-npp-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-nvgraph-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/cuda-nvrtc-9-0/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/libnccl2/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+tar: usr/share/doc/libcudnn7/.wh..wh..opq: implausibly old time stamp 1969-12-31 18:00:00
+[33mWARNING: Non existent bind point (directory) in container: '/scratch'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/data'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/dors'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs22'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs23'
+[0m[33mWARNING: Skipping user bind, non existent bind point (file) in container: '/usr/bin/nvidia-smi'
+[0m/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING: Logging before flag parsing goes to stderr.
+W0416 21:00:13.555181 140136154859264 tf_logging.py:126] From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+W0416 21:00:22.065015 140136154859264 tf_logging.py:126] From /home/chas/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1502: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-04-16 21:00:23.401499: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-04-16 21:00:23.616311: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:03:00.0
+totalMemory: 11.92GiB freeMemory: 11.80GiB
+2018-04-16 21:00:23.616378: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-04-16 21:01:16.312366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-04-16 21:01:16.312420: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-04-16 21:01:16.312434: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-04-16 21:01:16.312809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11432 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:03:00.0, compute capability: 5.2)
+I0416 21:01:17.826632 140136154859264 tf_logging.py:116] Running local_init_op.
+I0416 21:01:18.235362 140136154859264 tf_logging.py:116] Done running local_init_op.
+TensorFlow:  1.7
+Model:       inception4
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  32 global
+             32 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/gpu:0']
+Data format: NCHW
+Layout optimizer: False
+Optimizer:   sgd
+Variables:   parameter_server
+==========
+Generating model
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 40.9 +/- 0.0 (jitter = 0.0)	7.738
+10	images/sec: 40.9 +/- 0.0 (jitter = 0.0)	7.800
+20	images/sec: 39.7 +/- 0.3 (jitter = 0.1)	7.806
+30	images/sec: 38.9 +/- 0.3 (jitter = 0.9)	7.788
+40	images/sec: 38.5 +/- 0.3 (jitter = 0.1)	7.711
+50	images/sec: 38.2 +/- 0.2 (jitter = 0.1)	7.787
+60	images/sec: 38.1 +/- 0.2 (jitter = 0.1)	7.864
+70	images/sec: 37.9 +/- 0.2 (jitter = 0.0)	7.841
+80	images/sec: 37.9 +/- 0.1 (jitter = 0.0)	7.671
+90	images/sec: 37.8 +/- 0.1 (jitter = 0.1)	7.848
+100	images/sec: 37.7 +/- 0.1 (jitter = 0.0)	7.843
+----------------------------------------------------------------
+total images/sec: 37.74
+----------------------------------------------------------------

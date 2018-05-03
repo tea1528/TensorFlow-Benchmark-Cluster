@@ -1,0 +1,63 @@
+
+Lmod is automatically replacing "Intel/2016.3.210-GCC-5.4.0-2.26" with
+"GCC/5.4.0-2.26".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) Perl/5.24.0     2) git/2.12.2
+
+which: no nvidia-smi in (/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin:/usr/local/sbin)
+[33mWARNING: Could not find the Nvidia SMI binary to bind into container
+(B[mDocker image path: index.docker.io/tensorflow/tensorflow:latest
+Cache folder set to /gpfs22/home/chas/.singularity/docker
+Creating container runtime...
+[33mWARNING: Non existent bind point (directory) in container: '/scratch'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/data'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/dors'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs22'
+[0m[33mWARNING: Non existent bind point (directory) in container: '/gpfs23'
+[0m/usr/local/lib/python2.7/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+WARNING: Logging before flag parsing goes to stderr.
+W0416 15:15:46.123480 140712577574656 tf_logging.py:126] From /usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+W0416 15:15:51.677661 140712577574656 tf_logging.py:126] From /home/chas/benchmarks/scripts/tf_cnn_benchmarks/benchmark_cnn.py:1502: __init__ (from tensorflow.python.training.supervisor) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please switch to tf.train.MonitoredTrainingSession
+2018-04-16 15:15:52.264225: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+I0416 15:15:53.055780 140712577574656 tf_logging.py:116] Running local_init_op.
+I0416 15:15:53.359792 140712577574656 tf_logging.py:116] Done running local_init_op.
+TensorFlow:  1.7
+Model:       resnet50
+Dataset:     imagenet (synthetic)
+Mode:        training
+SingleSess:  False
+Batch size:  32 global
+             32 per device
+Num batches: 100
+Num epochs:  0.00
+Devices:     ['/cpu:0']
+Data format: NHWC
+Layout optimizer: False
+Optimizer:   sgd
+Variables:   parameter_server
+==========
+Generating model
+Running warm up
+Done warm up
+Step	Img/sec	total_loss
+1	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.121
+10	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.087
+20	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	7.976
+30	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.112
+40	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.148
+50	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.579
+60	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.229
+70	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.224
+80	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.316
+90	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.095
+100	images/sec: 0.6 +/- 0.0 (jitter = 0.0)	8.160
+----------------------------------------------------------------
+total images/sec: 0.56
+----------------------------------------------------------------
